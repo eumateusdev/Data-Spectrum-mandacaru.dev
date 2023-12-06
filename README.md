@@ -119,9 +119,7 @@ negative     860
 ```
 O gráfico abaixo, possui uma representação gráfica da quantidade dos três sentimentos identificados.
 
-![grafico_sentimento_qtd](https://github.com/vinioliveira7/Data-Spectrum/assets/84748508/34631967-2ae9-4a7b-840c-e16fed4e32a1)
-
-
+![grafico 1](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/c13eb3ac-56d2-4b8f-aabd-faf515ae8296)
 
 
 ## Tratamento de Dados
@@ -194,7 +192,7 @@ ax2.set_title('Boxplot da Quantidade de Palavras por Sentença')
 
 Finalmente, o gráfico completo é exibido com a função `plt.show()`. A figura inclui tanto o histograma quanto o boxplot, proporcionando uma visão abrangente da distribuição da quantidade de palavras por sentença no conjunto de dados.
 
-![grafico 2](https://github.com/vinioliveira7/Data-Spectrum/assets/84748508/6404c11c-f9d0-4043-89e3-37bad5ab6dd3)
+![grafico 2](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/c0e74e2f-b483-4c04-89b1-25f33bcfdb1b)
 
 O gráfico mostra a distribuição da quantidade de palavras por sentença em um conjunto de dados de 30 sentenças. O histograma mostra que a maioria das sentenças (cerca de 60%) tem entre 10 e 15 palavras. O boxplot mostra que a mediana da quantidade de palavras por sentença é de 10 palavras, com um intervalo interquartílico de 5 palavras. Isso significa que 50% das sentenças têm entre 5 e 15 palavras.
 
@@ -238,8 +236,7 @@ plt.title(f'Top {num_words} Palavras Mais Repetidas')
 plt.show()
 ```
 
-![grafico 3](https://github.com/vinioliveira7/Data-Spectrum/assets/84748508/a6bb2b24-4cbb-4f4f-83ab-d6a9cdfe77b9)
-
+![grafico 3](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/52e7dc8d-c415-4027-8125-f73ee1658a95)
 
 O gráfico mostra as 15 palavras mais repetidas em um conjunto de dados de texto. As palavras são representadas por seus tamanhos, com as palavras mais repetidas sendo maiores. As três palavras mais repetidas são "eur", "company" e "mn". Isso sugere que o conjunto de dados é composto principalmente de texto relacionado a empresas e finanças. As palavras "profit" e "sales" também aparecem com frequência, o que sugere que o conjunto de dados pode incluir informações sobre o desempenho financeiro das empresas.
 
@@ -312,7 +309,8 @@ return df
 
 Saída:
 
-![image](https://github.com/vinioliveira7/Data-Spectrum/assets/84748508/232a3ac2-97c6-4083-958e-d3b6c8c09edc)
+![288532829-232a3ac2-97c6-4083-958e-d3b6c8c09edc](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/3d9e39e4-198f-4889-80cc-14fd2d022593)
+
 
 ### Testando 8 Algoritmos
 
@@ -476,7 +474,8 @@ sorted_coef_df.head(10)
 
 Saída:
 
-![image](https://github.com/vinioliveira7/Data-Spectrum/assets/84748508/6107a19d-4484-48ea-b5ca-a95d8c9ceb68)
+![288562479-6107a19d-4484-48ea-b5ca-a95d8c9ceb68](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/8ebd16c0-81f4-4633-b740-b8f680c0dd51)
+
 
 ## Validação dos Resultados e Performance do Algoritmo
 
@@ -568,7 +567,7 @@ weighted avg       0.88      0.85      0.85      4673
 Accuracy: 0.85
 ```
 
-![transferir](https://github.com/vinioliveira7/Data-Spectrum/assets/84748508/c957f4fa-612d-404e-9736-fffa675bdbc4)
+![grafico 4](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/917c89bd-34dd-400b-83cb-4d7d7287e7b3)
 
 
 O gráfico mostra as curvas de aprendizado do modelo de classificação, com o score de treinamento (linha azul) e o score de validação cruzada (linha amarela). O score de treinamento aumenta com o aumento do número de amostras de treinamento, enquanto o score de validação cruzada atinge um platô após cerca de 2.500 amostras. Isso indica que o modelo está superajustando os dados de treinamento.
