@@ -3,7 +3,7 @@ import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 model = joblib.load('product-perspective/modelo_treinado.joblib')
-vectorizer = joblib.load('vectorizer.joblib')
+vectorizer = joblib.load('product-perspective/vectorizer.joblib')
 
 app = Flask(__name__)
 
