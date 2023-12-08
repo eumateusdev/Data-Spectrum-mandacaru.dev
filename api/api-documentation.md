@@ -59,10 +59,7 @@ A imagem mostra o funcionamento de uma API de análise de sentimento. Uma API, o
 A imagem mostra os seguintes passos:
 
  1. O usuário envia um comentário para o front end.
-
  2. O front end envia o comentário para a API.
-
  3. A API usa o modeo treinado para determinar o sentimento do comentário.
-
  4. A API retorna o sentimento de forma vísivel para o usuário pelo front-end.
 
