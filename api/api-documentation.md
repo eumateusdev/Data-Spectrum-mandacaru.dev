@@ -50,7 +50,19 @@
  A função classificar é responsável por receber as requisições HTTP na rota principal ('/'), extrair o texto do comentário a ser classificado, vetorizar o texto usando o vetorizador treinado e, em seguida, realizar a predição de sentimento utilizando o modelo de Regressão Logística. O resultado da predição é então retornado como uma resposta JSON.
 
  
-#### ⚙️| Como a API funciona e dentre outros
+#### ⚙️| Como a API funciona 
 
+![imagem png](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/64427453/9b490fb5-b6f0-4ea5-a9ac-66b94644d608)
 
+A imagem mostra o funcionamento de uma API de análise de sentimento. Uma API, ou interface de programação de aplicativos, é uma maneira de conectar dois sistemas diferentes. No caso desta imagem, o sistema do usuário é o front end, e a API, que está hospedada em um servidor. O usuário envia um comentário pelo front end. O front end envia o comentário para a API. A API usa um analisador de sentimento para determinar o sentimento do comentário. O analisador de sentimento é um algoritmo que analisa o texto do comentário e tenta determinar se é positivo, negativo ou neutro.
+
+A imagem mostra os seguintes passos:
+
+ 1. O usuário envia um comentário para o front end.
+
+ 2. O front end envia o comentário para a API.
+
+ 3. A API usa o modeo treinado para determinar o sentimento do comentário.
+
+ 4. A API retorna o sentimento de forma vísivel para o usuário pelo front-end.
 
