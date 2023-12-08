@@ -12,17 +12,9 @@ CORS(app)
 def classificar():
     # Obter os dados da requisição
     data = request.get_json()
-
-    # Extrair o texto a ser classificado da requisição
     texto = data['texto']
-
-    # Vetorizar o texto usando o vetorizador treinado
     texto_vetorizado = vectorizer.transform([texto])
-
-    # Fazer a predição usando o modelo treinado
     resultado = model.predict(texto_vetorizado)[0]
-
-    # Retornar o resultado como JSON
     return jsonify({'sentimento': resultado})
 
 if __name__ == '__main__':
