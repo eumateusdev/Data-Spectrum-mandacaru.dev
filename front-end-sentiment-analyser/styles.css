@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0099FF;
+}
+
+.image_sentiments{  
+  margin-left: 180px;
+  z-index: 100;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: #0099FF;
+  overflow: hidden;
+}
+
+.wave {
+  z-index: 1;
+  width: 250%;
+  height: 2500px;
+  position: absolute;
+  
+  margin-left:-900px;
+  margin-top:-2600px;
+  border-radius: 35%;
+  background: rgb(255, 255, 255);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+
+#search-bar {
+  position: relative;
+  z-index: 1000;
+  margin-top: -40px;
+  background-color: #fff;
+  width: 80%;
+  padding: 10px;
+  margin-left: 70px;
+  border-color: #0098fd;
+  border-radius: 10px;
+  /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);*/
+}
+
+#analyze-btn {
+  border-radius: 8px;
+  position: relative;
+  z-index: 1000;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0177c5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#sentiment-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+}
+
+#title {
+  font-family: 'Roboto', sans-serif;
+  color: #bdbdbd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1000;
+  font-size: 65px;
+  /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.4);*/
+}
+
+#text {
+  z-index: 1500;
+  position: relative;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
