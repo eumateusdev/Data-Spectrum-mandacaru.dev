@@ -54,7 +54,7 @@
 
 ![imagem png](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/64427453/9b490fb5-b6f0-4ea5-a9ac-66b94644d608)
 
-A imagem mostra o funcionamento de uma API de análise de sentimento. Uma API, ou interface de programação de aplicativos, é uma maneira de conectar dois sistemas diferentes. No caso desta imagem, o sistema do usuário é o front end, e a API, que está hospedada em um servidor. O usuário envia um comentário pelo front end. O front end envia o comentário para a API. A API usa um analisador de sentimento para determinar o sentimento do comentário. O analisador de sentimento é um algoritmo que analisa o texto do comentário e tenta determinar se é positivo, negativo ou neutro.
+A imagem mostra o funcionamento de uma API de análise de sentimento. A API foi hospedada gratuitamente no Raiway. No caso desta imagem, o sistema do usuário é o front end, e a API, que está hospedada em um servidor. O usuário envia um comentário pelo front end. O front end envia o comentário para a API. A API usa um analisador de sentimento para determinar o sentimento do comentário. O analisador de sentimento é um algoritmo que analisa o texto do comentário e tenta determinar se é positivo, negativo ou neutro.
 
 A imagem mostra os seguintes passos:
 
