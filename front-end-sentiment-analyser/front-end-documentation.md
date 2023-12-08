@@ -1,8 +1,10 @@
 # Documentação do Front-End - Sentiment Analyser by Data Spectrum
 
+![image](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/3768e30c-91cd-47f3-a3b4-24cfbe5d8bd6)
+
 O objetivo do site é oferecer uma representação visual da API. Na página, há três faces que classificam os sentimentos em categorias: positivo, neutro e negativo.
 
-![image](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/ec93aef3-d9b5-4d47-b36f-bc1eca1bdd47)
+![image](https://github.com/eumateusdev/Data-Spectrum-mandacaru.dev/assets/84748508/5c83884f-f785-4ce0-bb58-3bd08f968ec3)
 
 Para realizar a classificação, basta o usuário digitar uma sentença na barra e clicar em "Analyser".
 
