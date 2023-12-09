@@ -4,7 +4,7 @@
 
 </p>
 
-# Wiki - Projeto Sentiment Analyser - mandacaru.dev
+# Wiki - Projeto Sentiment Analyzer - mandacaru.dev
 
 Esta documentação se refere ao projeto desenvolvido no mandacaru.dev. mandacaru.dev é um programa de capacitação imersiva em tecnologias inovadoras, focado em lapidar talentos do sertão do Ceará e apresentar oportunidades de trabalho remoto no mercado financeiro nacional. A proposta deste ano é o Módulo Ibiapaba, focado em Data Science.
 
